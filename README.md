@@ -19,7 +19,7 @@ midjourney Example inbox :
 
 "Kruger National Park's Wildlife"
 
-Outbox - 
+
 Input = Desert and man walking into igloo
 
 Output = The scorching heat of the desert contrasts with the inviting warmth of an igloo built from ice. Sand swirls around the man's feet as he passes
