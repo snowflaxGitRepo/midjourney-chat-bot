@@ -1,7 +1,7 @@
 # midjourney-chat-bot
 
 create a dataset for creating a prompt given a concept.
-Use  Llama-2 7B model using the HuggingFace auto train-advanced package.
+Use  Llama-2 7B model, using the HuggingFace auto train-advanced package.
 
 
 1. Training dataset
