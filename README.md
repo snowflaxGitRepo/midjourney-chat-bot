@@ -12,10 +12,14 @@ http://122.169.118.18:3001/
 
 midjourney Example inbox : 
 "Arizona Desert Sunset"
+
 "Mumbai skyline with sea"
+
 "Rural Village Cricket Match"
+
 "Kruger National Park's Wildlife"
 
 Outbox - 
 Input = Desert and man walking into igloo
+
 Output = The scorching heat of the desert contrasts with the inviting warmth of an igloo built from ice. Sand swirls around the man's feet as he passes
