@@ -1,25 +1,34 @@
 # midjourney-chat-bot
 
-Task Details - 
 create a dataset for creating a prompt given a concept.
-Llama-2
 Use  Llama-2 7B model using the HuggingFace auto train-advanced package.
 
-Implementation - 
 
-http://122.169.118.18:3001/
+1. Training dataset
 
+   train.csv created for midjourney promts
 
-midjourney Example inbox : 
-"Arizona Desert Sunset"
+2. train model
 
-"Mumbai skyline with sea"
+   Run the bellow command from the dataset folder  
 
-"Rural Village Cricket Match"
-
-"Kruger National Park's Wildlife"
+   autotrain llm --train --project_name 'MJ-prompts' --model 'abhishek/llama-2-7b-hf-small-shards' --data_path . --use_peft --use_int4 --learning_rate 2e-4 --train_batch_size 4 --num_train_epochs 9 --trainer sft  > training.logs
 
 
-Input = Desert and man walking into igloo
+3. Start API
 
-Output = The scorching heat of the desert contrasts with the inviting warmth of an igloo built from ice. Sand swirls around the man's feet as he passes
+   python3 app.py
+
+   link : http://localhost:3001/
+
+4. Implementation Demo link- 
+
+   link: http://122.169.118.18:3001/
+
+5. midjourney Example :  
+   1. "Arizona Desert Sunset"
+   2. "Mumbai skyline with sea"
+   3. "Rural Village Cricket Match"
+   4. "Kruger National Park's Wildlife"
+
+6. youtube video link : https://www.youtube.com/watch?v=gZhCbkrT2x8
