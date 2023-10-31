@@ -9,3 +9,4 @@ The "midjourney-chat-bot" project focuses on creating a specialized dataset for 
 
 [Live Demo Link](http://122.169.118.18:3001/)
 
+[midjourney.webm](https://github.com/snowflaxGitRepo/midjourney-chat-bot/assets/146845568/d748a2f1-713b-426b-9c06-adc44aa269d1)
