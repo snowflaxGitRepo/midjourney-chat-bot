@@ -4,5 +4,8 @@ The "midjourney-chat-bot" project focuses on creating a specialized dataset for 
 
 [Open Notebook](https://github.com/snowflaxGitRepo/midjourney-chat-bot/blob/main/README.ipynb)
 
+![image](https://github.com/snowflaxGitRepo/midjourney-chat-bot/assets/146845568/ce34b39c-b85f-4a44-b511-b1333266294a)
+
+
 [Live Demo Link](http://122.169.118.18:3001/)
 
